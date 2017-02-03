@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of the Sulaeman Checkout Unique Grand Total package.
+ *
+ * @author Sulaeman <me@sulaeman.com>
+ * @package Sulaeman_CheckoutUniqueGrandTotal
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:DataObject/etc/fieldset.xsd">
+    <scope id="global">
+        <!-- Copy quote to sale order fields -->
+        <fieldset id="sales_convert_quote">
+            <field name="unique_number">
+                <aspect name="to_order" />
+            </field>
+        </fieldset>
+        <fieldset id="sales_convert_order">
+            <field name="unique_number">
+                <aspect name="to_quote" />
+                <aspect name="to_invoice" />
+                <aspect name="to_shipment" />
+                <aspect name="to_cm" />
+            </field>
+        </fieldset>
+    </scope>
+</config>

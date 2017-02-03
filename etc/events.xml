@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of the Sulaeman Checkout Unique Grand Total package.
+ *
+ * @author Sulaeman <me@sulaeman.com>
+ * @package Sulaeman_CheckoutUniqueGrandTotal
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="sales_quote_save_after">
+        <observer name="sulaeman_checkout_unique_grand_total_sales_quote_save_after"
+                  instance="Sulaeman\CheckoutUniqueGrandTotal\Observer\Quote\Model\Quote\SaveAfter"
+                  disabled="false" />
+    </event>
+    <event name="sales_order_save_after">
+        <observer name="sulaeman_checkout_unique_grand_total_sales_order_save_after"
+                  instance="Sulaeman\CheckoutUniqueGrandTotal\Observer\Sales\Model\Order\SaveAfter"
+                  disabled="false" />
+    </event>
+    <event name="sales_order_invoice_save_after">
+        <observer name="sulaeman_checkout_unique_grand_total_sales_order_invoice_save_after"
+                  instance="Sulaeman\CheckoutUniqueGrandTotal\Observer\Sales\Model\Order\Invoice\SaveAfter"
+                  disabled="false" />
+    </event>
+</config>

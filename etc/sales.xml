@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of the Sulaeman Checkout Unique Grand Total package.
+ *
+ * @author Sulaeman <me@sulaeman.com>
+ * @package Sulaeman_CheckoutUniqueGrandTotal
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Sales:etc/sales.xsd">
+    <section name="quote">
+        <group name="totals">
+            <item name="unique_number" instance="Sulaeman\CheckoutUniqueGrandTotal\Model\Quote\Address\Total\UniqueNumber" sort_order="500"/>
+        </group>
+    </section>
+</config>

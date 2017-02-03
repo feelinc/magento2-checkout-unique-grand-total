@@ -1,0 +1,12 @@
+{
+    "name": "sulaeman/checkout-unique-grand-total",
+    "description": "Checkout Unique Grand Total",
+    "type": "project",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "minimum-stability": "alpha",
+    "prefer-stable": true
+}
