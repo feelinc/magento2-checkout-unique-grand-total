@@ -14,19 +14,19 @@ Donate to me by clicking the PayPal LOVE image
 
 ## SCREENSHOTS
 **Shopping cart summary**
-![Shopping Cart](blob/master/screenshots/shopping-cart.jpg?raw=true)
+![Shopping Cart](../../blob/master/screenshots/shopping-cart.jpg?raw=true)
 **Checkout order summary**
-![Checkout order summary](blob/master/screenshots/checkout.jpg?raw=true)
+![Checkout order summary](../../blob/master/screenshots/checkout.jpg?raw=true)
 **Customer order view**
-![Customer order view](blob/master/screenshots/customer-order-view.jpg?raw=true)
+![Customer order view](../../blob/master/screenshots/customer-order-view.jpg?raw=true)
 **Admin new order**
-![Admin new order](blob/master/screenshots/admin-order-new.jpg?raw=true)
+![Admin new order](../../blob/master/screenshots/admin-order-new.jpg?raw=true)
 **Admin order view**
-![Admin order view](blob/master/screenshots/admin-order-view.jpg?raw=true)
+![Admin order view](../../blob/master/screenshots/admin-order-view.jpg?raw=true)
 **Admin new invoice**
-![Admin new invoice](blob/master/screenshots/admin-invoice-new.jpg?raw=true)
+![Admin new invoice](../../blob/master/screenshots/admin-invoice-new.jpg?raw=true)
 **Admin order total due**
-![Admin order total due](blob/master/screenshots/admin-order-view-2.jpg?raw=true)
+![Admin order total due](../../blob/master/screenshots/admin-order-view-2.jpg?raw=true)
 
 ## INSTALLATION
 - Create "Sulaeman/CheckoutUniqueGrandTotal" folders inside your "app/code/" folder.
