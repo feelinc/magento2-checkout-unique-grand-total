@@ -1,5 +1,5 @@
 # Magento 2 - Unique Grand Total
-Implement a unique amount that will be applied to order grand total.
+Implement a unique amount that will be applied to order grand total. This implementation can be used to check payment in bank account, by checking the total payment similar to order grand total.
 
 
 ## DONATE
